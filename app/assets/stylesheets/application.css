@@ -24,11 +24,20 @@ ul {
 .lettergrid {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
 }
 
 li {
   list-style-type: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: teal;
+  margin: 10px;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 p {
